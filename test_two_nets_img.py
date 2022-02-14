@@ -262,3 +262,6 @@ def test(model1, model2, queryloader, galleryloader, use_gpu, ranks=[1, 5, 10, 2
 
 if __name__ == '__main__':
     main()
+
+
+#python test_two_nets_img.py -a1 resnet50-salience -a2 resnet50-parsing --resume1 saved-models/resnet50m-salience-market1501.pth.tar --resume2 saved-models/resnet50m-parsing-market1501.pth.tar --save-dir log/test-resnet-salience-parsing-market1501
