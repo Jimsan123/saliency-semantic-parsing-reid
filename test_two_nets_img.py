@@ -265,3 +265,5 @@ if __name__ == '__main__':
 
 
 #python test_two_nets_img.py -a1 resnet50-salience -a2 resnet50-parsing --resume1 saved-models/resnet50m-salience-market1501.pth.tar --resume2 saved-models/resnet50m-parsing-market1501.pth.tar --save-dir log/test-resnet-salience-parsing-market1501
+
+#python test_two_nets_img.py -a1 resnet50-salience -a2 resnet50-parsing --resume1 saved-models/resnet50-salience-market1501.pth.tar --resume2 saved-models/resnet50-parsing-market1501.pth.tar --save-dir log/test-resnet-salience-parsing-market1501
